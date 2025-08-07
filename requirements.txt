@@ -1,0 +1,18 @@
+# ------- Deep RL 栈 -------
+torch==2.8.0
+gymnasium>=0.29.1,<1.1.0 
+stable-baselines3[extra]==2.4.0
+sb3-contrib==2.4.0
+
+# ------- 物理与可视化 -------
+mujoco==3.3.4          # Colab 用；Mac 已用 conda 装好
+mujoco-python-viewer==0.1.4
+imageio[ffmpeg]>=2.33
+
+# ------- 实验管理 -------
+tensorboard==2.16.2
+wandb==0.16.5
+
+# ------- 数据分析（可选） -------
+pandas>=2.2
+seaborn>=0.13
